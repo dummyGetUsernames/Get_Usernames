@@ -1,6 +1,9 @@
 
 THE PROBLEM STATEMENT:
 
+It doesn't seem to be possible, either using the advanced search features, or the API, to directly look up a github username by a known email address, if that user has chosen not to make that email address public.
+But, if they've associated it with their account, even if they haven't made it public, then git commits that they've made to repositories, that use that email address, are linked to their user accounts. And, as it happens, when you access the commits of that repo with the API, the usernames show up there, too. So, as a part of the ranking candidates for hiring process, seeing github stats was one of the few things we tried looking into, to see how uch a candidate is active and how many contributoins they have made publically.
+
 The functional specifications of the script are as follows:
 
 1. Grab a candidate's github profile given an email address
